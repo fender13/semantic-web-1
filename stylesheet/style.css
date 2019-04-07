@@ -1,0 +1,31 @@
+body {
+	background-image: url('../img/cacam.jpg');
+	background-repeat: no-repeat;
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+	letter-spacing: .5px;
+	position: relative;
+	background-size: 100%;
+}
+
+.container {
+	color: white;
+	text-align: center;
+	position:fixed;
+    top: 40%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -8em; /*set to a negative number 1/2 of your height*/
+	margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+.container h1 {
+	font-size: 50px;
+}
+
+.container p {
+	font-size: 30px;
+}
